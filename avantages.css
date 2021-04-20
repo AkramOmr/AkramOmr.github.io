@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: #444;
+}
+img.nav-image {
+    width:50px;
+}
+li, a {
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:30px 10%;
+    margin-bottom: 100px;
+}
+
+.logo {
+    cursor:pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding:0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav-links li a:hover {
+    color:#0088a9;
+}
+
+div.MainDef {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    margin-left:20%;
+    margin-right:20%;
+    text-decoration: gray double underline;
+    color:rgb(27, 170, 134);
+    font-size: 30px;
+    letter-spacing: 5px;
+    border:2px solid rgb(208, 255, 0);
+    padding:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    margin-bottom: 10px;
+}
+p.MainDef, p.Routeur {
+    font-size:28px;
+    max-width:1000px;
+    background-color:#5c5c1e3a;
+    color:wheat;
+    align-self:baseline;
+}
+
+h1.SecondDef {
+    margin-top:2cm;
+    margin-bottom:2cm;
+}
+
+
+h2 {
+    color:#0acfcfbe;
+    text-indent: 4cm;
+    font-size: 1.5cm;
+    margin-bottom: 1cm;
+}
+
+div.Routeur {
+    /* max-width:40%; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img.Routeur {
+    width:600px;
+    height: auto;
+    margin-bottom: 40px;
+    align-self: stretch;
+}
+p.Routeur {
+    max-width: 400px;
+}
+div.Note {
+    display:flex;
+    justify-content: space-around;
+
+}
+
+p.Note {
+    font-size:30px;
+    background:coral;
+    max-width: 600px;
+    max-height:200px;
+    align-self: center;
+}
+h1.Note {
+    border: none;
+    font-size: 80px;
+    color:#bd18bd;
+}
+
+main {
+    margin-bottom:100px;
+}
+
+.scroll {
+    position: fixed;
+    top:50%;
+    right:0;
+    width:80px;
+    height:80px;
+    display:block;
+    background-color: #000;
+    text-align: center;
+    line-height:80px;
+    color:#FFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.scroll.top {
+    top: calc(50% - 80px);
+    background:#44e839;
+}
+
+.scroll.bottom {
+    top: calc(50% - 0);
+    background:#f53d68;
+}
+
+h1.BigTitle {
+    text-align:center;
+    font-size:40px;
+    margin-right:20%;
+    width:auto;
+}
+
+#partage {
+    text-justify:distribute-all-lines;
+}
